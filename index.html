@@ -15,8 +15,9 @@
     }
     .productImg{
       height: 150px;
+      max-width: 250px;
     }
-    .content{
+    .container{
       margin-top:50px;
     }
   </style>
@@ -52,7 +53,7 @@
       </div>
     </nav>
   </header>
-  <main class="content">
+  <main class="container">
     <div class="container-fluid">
       <div class="row">
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -81,32 +82,31 @@
         </div>
       </div>
     </div>
-    <h3 class="text-center">News</h3>
-    <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-      <figure>
-        <img src="img/product1.jpg" class="productImg" alt="Cell Phones">
-        <div>
-          <h4>Cell Phones</h4>
-          <p>All tecnology in your hands</p>
-        </div>
-      </figure>
-      <div class="btn-group">
-        <a href="#" class="btn btn-default">R$ 2000,00</a>
-        <a href="#" class="btn btn-primary">
-          <span class="glyphicon glyphicon-shopping-cart"></span>
-          Comprar</a>
-      </div>
-    </div>
+    <div class="row">
+      <div class="container-fluid">
+        <div class="col-xs-12 col-sm-3">
+          <div class="text-center">
+            <h3>Categories</h3>
+          </div>
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">Computers</a></li>
+              <li class="list-group-item"><a href="#">Cell Phones</a></li>
+              <li class="list-group-item"><a href="#">Tablets</a></li>
+              <li class="list-group-item"><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+      <div class="col-xs-12 col-sm-9">
+      <h3 class="text-center">News</h3>
       <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
         <figure>
-          <img src="img/product2.jpg" class="productImg" alt="Conputer Apple">
+          <img src="img/product1.jpg" class="productImg" alt="Cell Phones">
           <div>
-            <h4>MacBookPro</h4>
-            <p>Computer Apple</p>
+            <h4>Cell Phones</h4>
+            <p>All tecnology in your hands</p>
           </div>
         </figure>
         <div class="btn-group">
-          <a href="#" class="btn btn-default">R$ 3000,00</a>
+          <a href="#" class="btn btn-default">R$ 2000,00</a>
           <a href="#" class="btn btn-primary">
             <span class="glyphicon glyphicon-shopping-cart"></span>
             Comprar</a>
@@ -114,44 +114,14 @@
       </div>
         <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
           <figure>
-            <img src="img/product3.jpg" class="productImg" alt="Computer Alienware">
+            <img src="img/product2.jpg" class="productImg" alt="Conputer Apple">
             <div>
-              <h4>AlienWare</h4>
-              <p>Computer Alienware Gamer</p>
+              <h4>MacBookPro</h4>
+              <p>Computer Apple</p>
             </div>
           </figure>
           <div class="btn-group">
-            <a href="#" class="btn btn-default">R$ 4000,00</a>
-            <a href="#" class="btn btn-primary">
-              <span class="glyphicon glyphicon-shopping-cart"></span>
-              Comprar</a>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-          <figure>
-            <img src="img/product4.jpg" class="productImg" alt="Computer Ilustrative">
-            <div>
-              <h4>Computer</h4>
-              <p>Computer Ilustrative</p>
-            </div>
-          </figure>
-          <div class="btn-group">
-            <a href="#" class="btn btn-default">R$ 4000,00</a>
-            <a href="#" class="btn btn-primary">
-              <span class="glyphicon glyphicon-shopping-cart"></span>
-              Comprar</a>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-          <figure>
-            <img src="img/product1.jpg" class="productImg" alt="Cell Phones">
-            <div>
-              <h4>Cell Phones</h4>
-              <p>All tecnology in your hands</p>
-            </div>
-          </figure>
-          <div class="btn-group">
-            <a href="#" class="btn btn-default">R$ 2000,00</a>
+            <a href="#" class="btn btn-default">R$ 3000,00</a>
             <a href="#" class="btn btn-primary">
               <span class="glyphicon glyphicon-shopping-cart"></span>
               Comprar</a>
@@ -159,14 +129,44 @@
         </div>
           <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
             <figure>
-              <img src="img/product2.jpg" class="productImg" alt="Conputer Apple">
+              <img src="img/product3.jpg" class="productImg" alt="Computer Alienware">
               <div>
-                <h4>MacBookPro</h4>
-                <p>Computer Apple</p>
+                <h4>AlienWare</h4>
+                <p>Computer Alienware Gamer</p>
               </div>
             </figure>
             <div class="btn-group">
-              <a href="#" class="btn btn-default">R$ 3000,00</a>
+              <a href="#" class="btn btn-default">R$ 4000,00</a>
+              <a href="#" class="btn btn-primary">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                Comprar</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+            <figure>
+              <img src="img/product4.jpg" class="productImg" alt="Tablet Windows">
+              <div>
+                <h4>Tablet Windows</h4>
+                <p>Tablet Windows8</p>
+              </div>
+            </figure>
+            <div class="btn-group">
+              <a href="#" class="btn btn-default">R$ 1000,00</a>
+              <a href="#" class="btn btn-primary">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                Comprar</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+            <figure>
+              <img src="img/product5.jpg" class="productImg" alt="Tablet Fone">
+              <div>
+                <h4>Tablet + Fone</h4>
+                <p>All you need for listen a best music with much style</p>
+              </div>
+            </figure>
+            <div class="btn-group">
+              <a href="#" class="btn btn-default">R$ 1200,00</a>
               <a href="#" class="btn btn-primary">
                 <span class="glyphicon glyphicon-shopping-cart"></span>
                 Comprar</a>
@@ -174,79 +174,96 @@
           </div>
             <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
               <figure>
-                <img src="img/product3.jpg" class="productImg" alt="Computer Alienware">
+                <img src="img/product6.jpg" class="productImg" alt="Game Multilazer">
                 <div>
-                  <h4>AlienWare</h4>
-                  <p>Computer Alienware Gamer</p>
+                  <h4>Multilazer Game</h4>
+                  <p>For play the best games</p>
                 </div>
               </figure>
               <div class="btn-group">
-                <a href="#" class="btn btn-default">R$ 4000,00</a>
+                <a href="#" class="btn btn-default">R$ 800,00</a>
                 <a href="#" class="btn btn-primary">
                   <span class="glyphicon glyphicon-shopping-cart"></span>
                   Comprar</a>
               </div>
             </div>
-            <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-              <figure>
-                <img src="img/product4.jpg" class="productImg" alt="Computer Ilustrative">
-                <div>
-                  <h4>Computer</h4>
-                  <p>Computer Ilustrative</p>
+              <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+                <figure>
+                  <img src="img/product7.jpg" class="productImg" alt="Tablet Sony Android">
+                  <div>
+                    <h4>Tablet Sony</h4>
+                    <p>Tablet Sony Android</p>
+                  </div>
+                </figure>
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">R$ 1500,00</a>
+                  <a href="#" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Comprar</a>
                 </div>
-              </figure>
-              <div class="btn-group">
-                <a href="#" class="btn btn-default">R$ 4000,00</a>
-                <a href="#" class="btn btn-primary">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
-                  Comprar</a>
+              </div>
+              <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+                <figure>
+                  <img src="img/product8.jpg" class="productImg" alt="Sony Xperia">
+                  <div>
+                    <h4>Sony Xperia Z3</h4>
+                    <p>Cell Phone Sony Xperia Z3 Android</p>
+                  </div>
+                </figure>
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">R$ 1900,00</a>
+                  <a href="#" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Comprar</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+                <figure>
+                  <img src="img/product3.jpg" class="productImg" alt="Computer Alienware">
+                  <div>
+                    <h4>AlienWare</h4>
+                    <p>Computer Alienware Gamer</p>
+                  </div>
+                </figure>
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">R$ 4000,00</a>
+                  <a href="#" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Comprar</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+                <figure>
+                  <img src="img/product2.jpg" class="productImg" alt="Conputer Apple">
+                  <div>
+                    <h4>MacBookPro</h4>
+                    <p>Computer Apple</p>
+                  </div>
+                </figure>
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">R$ 3000,00</a>
+                  <a href="#" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Comprar</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
+                <figure>
+                  <img src="img/product1.jpg" class="productImg" alt="Cell Phones">
+                  <div>
+                    <h4>Cell Phones</h4>
+                    <p>All tecnology in your hands</p>
+                  </div>
+                </figure>
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">R$ 2000,00</a>
+                  <a href="#" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Comprar</a>
+                </div>
               </div>
             </div>
-            <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-              <figure>
-                <img src="img/product3.jpg" class="productImg" alt="Computer Alienware">
-                <div>
-                  <h4>AlienWare</h4>
-                  <p>Computer Alienware Gamer</p>
-                </div>
-              </figure>
-              <div class="btn-group">
-                <a href="#" class="btn btn-default">R$ 4000,00</a>
-                <a href="#" class="btn btn-primary">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
-                  Comprar</a>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-              <figure>
-                <img src="img/product2.jpg" class="productImg" alt="Conputer Apple">
-                <div>
-                  <h4>MacBookPro</h4>
-                  <p>Computer Apple</p>
-                </div>
-              </figure>
-              <div class="btn-group">
-                <a href="#" class="btn btn-default">R$ 3000,00</a>
-                <a href="#" class="btn btn-primary">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
-                  Comprar</a>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=".2s">
-              <figure>
-                <img src="img/product1.jpg" class="productImg" alt="Cell Phones">
-                <div>
-                  <h4>Cell Phones</h4>
-                  <p>All tecnology in your hands</p>
-                </div>
-              </figure>
-              <div class="btn-group">
-                <a href="#" class="btn btn-default">R$ 2000,00</a>
-                <a href="#" class="btn btn-primary">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
-                  Comprar</a>
-              </div>
-            </div>
+          </div>
   </main>
   <script src="js/jquery-2.2.1.min.js" charset="utf-8"></script>
   <script src="js/bootstrap.min.js" charset="utf-8"></script>
