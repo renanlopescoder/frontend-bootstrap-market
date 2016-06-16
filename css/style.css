@@ -1,0 +1,27 @@
+.productImg{
+  height: 150px;
+  max-width: 250px;
+}
+.container{
+  margin-top:80px;
+}
+.container-carrousel{
+  margin-top:50px;
+}
+.navbar-header button{
+  color:#fff;
+}
+.productImg{
+  height: 150px;
+  max-width: 250px;
+}
+.tab-pane{
+  padding: 10px 5px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top:20px;
+  padding: 30px 0;
+  text-align:center;
+}
