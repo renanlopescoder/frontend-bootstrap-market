@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Course</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    .navbar-header button{
+      color:#fff;
+    }
+    .fullscreen{
+      width:100%;
+    }
+    .productImg{
+      height: 150px;
+      max-width: 250px;
+    }
+    .content{
+      margin-top:50px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      margin-top:20px;
+      padding: 30px 0;
+      text-align:center;
+    }
+    .tab-pane{
+      padding: 10px 5px;
+    }
+  </style>
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Course</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <meta name="viewport" content="width=device-width">
+    <style>
+      .navbar-header button{
+        color:#fff;
+      }
+      .fullscreen{
+        width:100%;
+      }
+      .productImg{
+        height: 150px;
+        max-width: 250px;
+      }
+      .container{
+        margin-top:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">renanslopes8</a>
+          <button class="navbar-toggle" type="button" data-target=".navbar-collapse"
+            data-toggle="collapse">Menu</button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Electronics
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="">Cell Phones</a></li>
+                <li><a href="">Computers</a></li>
+                <li><a href="">Tablets</a></li>
+              </ul>
+            </li>
+            <li><a href="produto.html">Produto</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+          </ul>
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input class="form-control" type="text"placeholder="Digite a sua busca">
+              </div>
+              <input type="submit"class="btn btn-default" value="Buscar">
+            </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row content">
+          <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2 class="panel-title">Sua Compra</h2>
+              </div>
+              <div class="panel-body">
+                <img class="img-responsive img-thumbnail" src="img/product3.jpg" alt="Notebook Alienware">
+                <dl>
+                  <dt>Nome do Produto</dt>
+                  <dd>Alienware</dd>
+
+                  <dt>Descrição</dt>
+                  <dd>Notebook de 15 polegadas com placa de vídeo de alta performance e processadores Intel® Core™, overclock dinâmico.</dd>
+
+                  <dt>Preço</dt>
+                  <dd>R$ 7.998,00</dd>
+
+                  <dt>Tamanho Tela</dt>
+                  <dd>15 pol</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <form action="">
+              <fieldset>
+                <legend>Informações do usuário</legend>
+                <div class="form-group">
+                  <label for="nome">Nome Completo</label>
+                  <input id="nome" class="form-control" type="text" name="nome">
+                </div>
+                <div class="form-group">
+                  <label for="cpf">CPF</label>
+                  <input id="cpf" class="form-control" type="text" name="cpf">
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <div class="input-group">
+                    <span class="input-group-addon">@</span>
+                    <input id="email" class="form-control" type="email" name="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input id="novidades" type="checkbox" name="novidades" checked="checked">
+                  <label for="novidades">Quero receber novidades!</label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Forma de Pagamento</legend>
+                  <div class="form-group">
+                    <label for="bandeira">Bandeira</label>
+                    <select id="bandeira" class="form-control" name="">
+                      <option value="Visa">Visa</option>
+                      <option value="Mastercard">Mastercard</option>
+                      <option value="American Express">American Express</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="numero-cartao">Numero do Cartão</label>
+                    <input id="numero-cartao" class="form-control" type="text" name="numero-cartao">
+                  </div>
+                  <div class="form-group">
+                    <label for="validade">Validade do Cartão</label>
+                    <input id="validade" type="month" class="form-control" name="validade">
+                  </div>
+                  <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" class="form-control" name="cvv" maxlength="3">
+                  </div>
+              </fieldset>
+              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span>
+                Confirmar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+		</main>
+    <footer>
+      <p>Bootstrap Layout</p>
+      <p>By renanslopes8</p>
+    </footer>
+  <script src="js/jquery-2.2.1.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/wow.min.js" charset="utf-8"></script>
+  <script>
+    $(function(){
+      new WOW().init();
+    });
+  </script>
+</body>
+</html>
